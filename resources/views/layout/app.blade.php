@@ -12,7 +12,6 @@
     @if (session()->has('success'))
     <div>{{ session('success') }}</div>
   @endif
-
-    @yield('content')
+  @yield('content')
 </body>
 </html>
